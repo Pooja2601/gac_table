@@ -1,0 +1,42 @@
+@import './styles/custom.scss';
+@import './styles/colors.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $bg-color;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiInput-underline::before, .MuiInput-underline::after, .MuiInputLabel-shrink  {
+  display: none !important;
+}
+.MuiFormControl-fullWidth {
+  margin: 0 !important;
+}
+.MuiInput-formControl {
+  margin: 0 0 12px;
+}
+.supplier .MuiFormLabel-root{
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+}
+.modal-btn {
+  span {
+      color: $btn-blue;
+  }
+}
+.MuiDialogContentText-root{
+  color: $black !important;
+}
